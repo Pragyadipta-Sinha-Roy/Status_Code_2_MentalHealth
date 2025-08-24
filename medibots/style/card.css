@@ -1,0 +1,15 @@
+.card {
+  text-align: left;
+  border: 0;
+  border-radius: var(--radius);
+  background: var(--card);
+  padding: 20px;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.card:hover { transform: translateY(-2px); box-shadow: 0 14px 30px rgba(0,0,0,.18); }
+
+.card h3 { margin: 0 0 6px; color: var(--brand-deep); font-size: 22px; }
+.subtitle { display: block; color: var(--muted); font-weight: 600; margin-bottom: 6px; }
+.card p { margin: 0; color: #4a3f73; }
