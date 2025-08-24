@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 20px;
+}
+
+.pill {
+  border: 0;
+  padding: 10px 16px;
+  background: linear-gradient(180deg, #e6b6ff, #c08bff);
+  color: #201436;
+  font-weight: 600;
+  border-radius: 999px;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+}
+
+.pill:hover { filter: brightness(1.05); }
+
+.nav-right { display: relative; gap: 10px; }
+
+.icon {
+  width: 40px; height: 40px;
+  border-radius: 999px;
+  border: 0;
+  background: var(--card);
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  font-size: 18px;
+}
